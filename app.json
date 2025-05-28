@@ -10,7 +10,7 @@
   "env": {
     "PREFIX": {
       "description": "Choose your prefix for your bot",
-      "value": ".",
+      "value": "*",
       "required": true
     },
     "AUTO_REJECT_CALL": {
@@ -45,7 +45,7 @@
     },
     "AUTO_READ": {
       "description": "Messages will be marked as read automatically (type yes to activate or no to deactivate)",
-      "value": "no",
+      "value": "yes",
       "required": false
     },
     "BOT_NAME": {
@@ -66,16 +66,16 @@
     "HEROKU_API_KEY": {
       "description": "Enter your Heroku API key to be able to control your vars",
       "value": "",
-      "required": true 
+      "required": false 
     },
     "HEROKU_APP_NAME": {
       "description": "Enter your Heroku app name to be able to control vars",
-      "value": "",
-      "required": true 
+      "value": "mybot",
+      "required": false 
     },
     "OWNER_NUMBER": {
       "description": "Enter your number eg, 2547xxxxxxx",
-      "value": "",
+      "value": "254713020906",
       "required": true 
     },
    "STATUS_REACT_EMOJIS": {
@@ -100,7 +100,9 @@
     },
     "SESSION_ID": {
       "description": "Your session ID",
-      "value": "",
+      "value": "BWM-XMD;;;H4sIAAAAAAAAA5VU2ZKiSBT9l3zVaFYFiaiISRAVV1xBJ+YhhQRTVjNZCjv89wnKqu6K6JmeGp6SXO4959xz73eQZoThGW6A9h3klFSowO2yaHIMNKCXQYAp6AIfFQhoQF2OeosK2owK5tHc1oO5Mq24AbvF/usKrfXQuXs7dz89jPgX8OiCvDzHxPtNwFmGeNM5RVP3oMqqq1RUkuS8V6zmw5vMyUopz5pE4r37vn4BjzYiIpSkoZlfcIIpime4sRGhX4MfmpUYBLcAdtA9U4LbXvFgNTvuTlGjC/1pR9yuCttlhAjZ1+A7q14+68ztSX8YM1Xi4rzKKYO5fxQNh+upS38qus76ql6sJ3xGwhT7lo/TghTNl3W/Tc77dBRZdi04mYtkXPcMFiVnXlZlR1UGNdNf85HXgbH3NeCqul2mO6OG4aailphhz8wM47TdG9LwkL6u4Xl7vJ9um0qQPwO36YdXov+jOzPKyYyNzyhf73XKRUNvmk8WAwFanfvUY4s6qXyz3qf3kfU1+Kft0l01k+vOGjc2EeKGcqvpdMJWO3mqTO5GcF8euIHRQPJJd1SU9HcoI9XKxIkgdCp9VJ7gprNGljEQXP6qyG4yv6T9yLwNTlfeHni3gyrwcTncyr666LiBe+XP5VhHfKVIzfxaqJyvZDjZXODLG6MIN5YPNOHRBRSHhBUUFSRL2z2xx3cB8qst9igu3uQFy8ErV9PDIMBuyEnhsrF4F9LxfFHm29lODJDjiLGObVNev4AuyGnmYcawPyGsyGizwIyhEDOg/flWqZY0xUlW4CnxgQbEnqwIEi/yA77/B/tWX1DBUJ5/S3EBuiCgWbLAQCtoibvg7cEIQlmCJq8OZcWAIwgVoz+EUk82DUUcqsOWYvJMuiMJZgVKcqAJiqzKvNgX+4+/uiDFr8XTPy1rSeiCgFBW7NMyjzPkf5jr4xB5XlamxbZJPaNdYAo0/uc2LgqShqxlVqaIehdSYaPlAbQAxQz/EBpT7H9weR8eRua39d/s9bUw7I9Bi70N9Is2msT/Kk/8vKZIqqKIgiT0BPl5sz14/EDYBvRxgUjMgAaMBY1zFU7MWTkUmTkeQyuERgjBT0YfDn06gOiF7d4Vd8DXOlzt9N7pKpz1yz5S9XxVwC3HDcY3cpoMw/3LPwQBGhhEpTLjUOJfRCW3SQdOU5Sok46hLOfnjVNhPnG4cKHU06qeR8febCaLfSMOI2OvGNt8fjrdZkktjbhAFJexw+6vMhq2du4CH1fEw5+TZfG9JHp1PRpV2ph4WOsLaVGplsoiexXZMzMUT2M3O2D95vWITtb5PbquKNtwuzOOhEt8suoqukgmCfia4Q4/q7iwfvbOW+/G7zOTvLuavP0GBL+NoBS1Ffzv2j2BtxbjH91PMd6H2r8MBv0YnneC2hE4fwHXw6jGznHg1MfD1IZoR9dmxXGbW5ZsankEHq3X8xgVQUYToAGU+jQjPugCmpWtZ600yH6TzICWpa+fzGPECvizD/6htQTxecumWT5B7AI0YDtRT2893cA83xao+OgqANvPSlPw+Bv2wIQT+AcAAA==
+
+",
       "required": true
     },    
     "STARTING_BOT_MESSAGE": {
@@ -110,7 +112,7 @@
     },
     "PRESENCE": {
       "description": "Presence mode: 1=online, 2=typing, 3=recording",
-      "value": "",
+      "value": "3",
       "required": false
     },
     "ANTIDELETE_SENT_INBOX": {
